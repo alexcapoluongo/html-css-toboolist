@@ -1,0 +1,29 @@
+/* COMMON */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f8f9 ;
+}
+
+.header{
+    height:100px;
+    background-color: white;
+    line-height: 100px;
+}
+
+.header img{
+    width: 60px;
+    vertical-align: middle;
+    margin-left:20px;
+}
+
+.logo-title{
+    font-size:3em;
+    font-weight:bold;
+    vertical-align: middle;
+}
