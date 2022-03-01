@@ -4,6 +4,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -86,33 +87,38 @@ ul{
     width:5px;
 }
 
+.list h2{
+    margin-bottom:10px;
+}
+
 li{
     line-height: 40px;
     font-size: 1.3em;
 }
-
-/* TABLE CONTENT ELEMENTS */
-
-/* CHECK-CROSS */
-.checked-list{
+li:before{
+    content:"\2713";
+    color:green;
+    font-size:.8em;
     display:inline-block;
     width:20px;
     height:20px;
     border: 1px solid green;
     border-radius: 50%;
     vertical-align: middle;
-}
+    text-align:center;
+    line-height: 20px;
+    
+} 
 
-.check-symbol{
-    color:green;
-    font-size:.8em;
-}
+/* TABLE CONTENT ELEMENTS */
 
+/* CHECK-CROSS */
 
-.crossed-list{
+.crossed-list:before{
     color:red;
     font-size:.8em;
-
+    content:"\2715";
+    border-color:red;
 }
 
 /* LABELS */
