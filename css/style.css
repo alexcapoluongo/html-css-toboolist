@@ -37,7 +37,6 @@ body{
 /* CONTENT CONTAINER  */
 .container{
     width:80%;
-    height:500px;
     margin: 0 auto;
     background-color: white;
 }
@@ -45,7 +44,7 @@ body{
 /* NAV */
 .nav{
     margin-top:50px;
-    border-bottom: 3px solid #f5f8f9 ;
+    margin-bottom:5px;
     height: 80px;
     line-height:80px;
 }
@@ -61,8 +60,6 @@ body{
     background-color: #46adf1;
     border-style: none;
     vertical-align: middle;
-
-
 }
 
 #button-nav-2{
@@ -70,6 +67,25 @@ body{
     background-color: white;
     border: solid lightgray;
     vertical-align: middle;
+}
+/* MAIN */
 
+.list{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
 
+ul{
+    list-style: none;
+    margin-bottom:20px;
+}
+
+.list h2:before{ 
+    content:"\25be";
+    width:5px;
+}
+
+li{
+    line-height: 40px;
+    font-size: 1.3em;
 }
