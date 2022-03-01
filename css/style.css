@@ -70,6 +70,7 @@ body{
 }
 /* MAIN */
 
+/* TABLE STYLE */
 .list{
     padding-top:50px;
     padding-bottom: 50px;
@@ -88,4 +89,72 @@ ul{
 li{
     line-height: 40px;
     font-size: 1.3em;
+}
+
+/* TABLE CONTENT ELEMENTS */
+
+/* CHECK-CROSS */
+.checked-list{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    border: 1px solid green;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.check-symbol{
+    color:green;
+    font-size:.8em;
+}
+
+
+.crossed-list{
+    color:red;
+    font-size:.8em;
+
+}
+
+/* LABELS */
+
+.label{
+    font-size:.7em;
+    padding:5px 8px 5px;
+    border-radius:15px; 
+    color:white;  
+}
+
+#label-editorial{
+    border:#46adf1 1px solid;
+    background-color: #46adf1;
+}
+
+#label-q1goals{
+    border:#9c72e4 1px solid;
+    background-color:#9c72e4;
+
+}
+
+#label-recruiting{
+    border:#63c0a9 1px solid;
+    background-color: #63c0a9;
+
+}
+
+#label-mobile{
+    border:#f29e33 1px solid;
+    background-color: #f29e33;
+
+}
+
+#label-website{
+
+    border:#d763a1 1px solid;
+    background-color: #d763a1;
+}
+
+#label-sales{
+    border:#b0c925 1px solid;
+    background-color: #b0c925;
+
 }
