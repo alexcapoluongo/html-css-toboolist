@@ -10,6 +10,12 @@ body{
     background-color: #f5f8f9 ;
 }
 
+.ml-5{
+    margin-left:50px;
+} 
+
+/* HEADER */
+
 .header{
     height:100px;
     background-color: white;
@@ -26,4 +32,44 @@ body{
     font-size:3em;
     font-weight:bold;
     vertical-align: middle;
+}
+
+/* CONTENT CONTAINER  */
+.container{
+    width:80%;
+    height:500px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* NAV */
+.nav{
+    margin-top:50px;
+    border-bottom: 3px solid #f5f8f9 ;
+    height: 80px;
+    line-height:80px;
+}
+
+.button-nav{
+    height:30px;
+    width:100px;
+    border-radius:5px;  
+}
+
+#button-nav-1{
+    color:white;
+    background-color: #46adf1;
+    border-style: none;
+    vertical-align: middle;
+
+
+}
+
+#button-nav-2{
+    color:lightgray;
+    background-color: white;
+    border: solid lightgray;
+    vertical-align: middle;
+
+
 }
